@@ -2,3 +2,8 @@ name = "gemini"
 main = "src/worker.mjs"
 compatibility_date = "2024-09-23"
 compatibility_flags = [ "nodejs_compat" ]
+
+zone_id = "794f2ee4a66a79d94b2e2d9e728d6590"
+routes = [
+  { pattern = "gemeni.yuen-network.top/*", custom_domain = true }
+]
